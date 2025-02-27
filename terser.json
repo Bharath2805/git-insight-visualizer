@@ -1,0 +1,17 @@
+{
+  "parse": {
+    "ecma": 2023
+  },
+  "compress": {
+    "ecma": 2023,
+    "passes": 2,
+    "drop_console": true
+  },
+  "mangle": {
+    "toplevel": true
+  },
+  "output": {
+    "ecma": 2023,
+    "comments": false
+  }
+}
